@@ -10,16 +10,16 @@ the project.
 You can build the project by launching the command `mvn clean install` in the root directory. You can then find the 
 resulting jar file in the target directory. 
 
-```java
-/**
-* Usages: java -jar PATH_TO_JAR_FILE [options]. e.g java -jar http-log-monitoring-1.0-SNAPSHOT.jar -AW 5 -AT 5
-* 
-*             -P: specifies the path of the log file (/tmp/access.log by default)
-*             -R: specifies the stats display rate in seconds (10s by default)
-*             -AT: specifies the average section hits above which an alert should be emitted (10 by default)
-*             -AW: specifies the alert window duration in seconds on which the average section hits is
-*             calculated upon (120s by default)
-*/
+```
+
+Usages: java -jar PATH_TO_JAR_FILE [options]. e.g java -jar http-log-monitoring-1.0-SNAPSHOT.jar -AW 5 -AT 5
+ 
+             -P: specifies the path of the log file (/tmp/access.log by default)
+             -R: specifies the stats display rate in seconds (10s by default)
+             -AT: specifies the average section hits above which an alert should be emitted (10 by default)
+             -AW: specifies the alert window duration in seconds on which the average section hits is
+             calculated upon (120s by default)
+
 ```
 
 ## Overview
