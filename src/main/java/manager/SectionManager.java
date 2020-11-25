@@ -9,8 +9,8 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class SectionManager {
-	private Map<String, Section> sectionMap;
-	private Collection<Observer> observers;
+	private final Map<String, Section> sectionMap;
+	private final Collection<Observer> observers;
 	private final int alertInterval;
 	private final int displayStatsInterval;
 

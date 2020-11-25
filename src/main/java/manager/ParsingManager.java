@@ -16,9 +16,9 @@ public class ParsingManager extends TimerTask {
 
 	private final Logger LOGGER = Logger.getLogger(this.getClass().getName());
 
-	private HttpAccessLogParser httpAccessLogParser;
-	private SectionManager sectionManager;
-	private InputStream reader;
+	private final HttpAccessLogParser httpAccessLogParser;
+	private final SectionManager sectionManager;
+	private final InputStream reader;
 
 	public ParsingManager(HttpAccessLogParser httpAccessLogParser, SectionManager sectionManager, InputStream reader) {
 		this.httpAccessLogParser = httpAccessLogParser;

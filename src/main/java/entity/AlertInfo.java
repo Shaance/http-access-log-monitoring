@@ -4,9 +4,9 @@ import java.time.LocalDateTime;
 
 public class AlertInfo {
 
-	private String section;
+	private final String section;
 	private long averageHits;
-	private LocalDateTime alertStart;
+	private final LocalDateTime alertStart;
 
 	public AlertInfo(String section, long averageHits, LocalDateTime alertStart) {
 		this.section = section;

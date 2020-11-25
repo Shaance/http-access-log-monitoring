@@ -4,8 +4,8 @@ import java.util.Objects;
 
 public class SectionHits{
 
-	private String sectionName;
-	private long hits;
+	private final String sectionName;
+	private final long hits;
 
 	public SectionHits(String sectionName, long hits) {
 		this.sectionName = sectionName;

@@ -5,12 +5,12 @@ import java.util.Objects;
 
 public class HttpLogAccessInfo {
 
-	private String remoteHost;
-	private String remoteUser;
-	private LocalDateTime localDateTime;
-	private HttpRequestType requestType;
-	private String section;
-	private int httpStatusCode;
+	private final String remoteHost;
+	private final String remoteUser;
+	private final LocalDateTime localDateTime;
+	private final HttpRequestType requestType;
+	private final String section;
+	private final int httpStatusCode;
 
 
 	public HttpLogAccessInfo(String remoteHost, String remoteUser, LocalDateTime localDateTime,

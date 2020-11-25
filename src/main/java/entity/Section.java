@@ -4,10 +4,10 @@ import java.util.*;
 
 public class Section extends Observable {
 
-	private String sectionName;
-	private HitStatistics hitStatistics;
-	private Queue<Long> hitsInAlertInterval;
-	private Queue<Long> hitsInDisplayStatsInterval;
+	private final String sectionName;
+	private final HitStatistics hitStatistics;
+	private final Queue<Long> hitsInAlertInterval;
+	private final Queue<Long> hitsInDisplayStatsInterval;
 
 	public Section(String sectionName, int alertInterval, int displayStatsInterval, Collection<Observer> observers) {
 

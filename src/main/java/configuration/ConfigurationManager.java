@@ -2,7 +2,7 @@ package configuration;
 
 public class ConfigurationManager {
 
-	private ConfigurationParser configurationParser;
+	private final ConfigurationParser configurationParser;
 
 	public ConfigurationManager(ConfigurationParser configurationParser) {
 		this.configurationParser = configurationParser;
